@@ -5,7 +5,9 @@
 [![codecov](https://codecov.io/gh/m-310101/windows-temp-file-destroyer/branch/main/graph/badge.svg?token=windows-temp-file-destroyer_token_here)](https://codecov.io/gh/m-310101/windows-temp-file-destroyer)
 [![CI](https://github.com/m-310101/windows-temp-file-destroyer/actions/workflows/main.yml/badge.svg)](https://github.com/m-310101/windows-temp-file-destroyer/actions/workflows/main.yml)
 
-Windows Temp file destroyer created by m-310101
+Windows Temp file destroyer created by m-310101.
+
+Designed to free up space held by temporary files on Windows OS. USE WITH CAUTION AND THE UNDERSTANDING THAT TEMPORARY FILES WILL BE LOST.
 
 ## Usage
 
