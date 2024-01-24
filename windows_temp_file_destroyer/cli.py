@@ -1,4 +1,5 @@
 from .base import delete_temp_files
 
-def main():  # pragma: no cover
+
+def main():
     delete_temp_files()
