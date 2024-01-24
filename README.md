@@ -40,7 +40,7 @@ See also
 - ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
 - 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
 - 🛳️ Automatic release to [PyPI](https://pypi.org) using [twine](https://twine.readthedocs.io/en/latest/) and github actions.
-- 🎯 Entry points to execute your program using `python -m <project_name>` or `$ project_name` with basic CLI argument parsing.
+- 🎯 Entry points to execute your program using `python -m <windows_temp_file_destroyer>` or `$ windows_temp_file_destroyer` with basic CLI argument parsing.
 - 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
 > Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
@@ -51,33 +51,33 @@ See also
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
 
 ---
-# project_name
+# windows_temp_file_destroyer
 
-[![codecov](https://codecov.io/gh/author_name/project_urlname/branch/main/graph/badge.svg?token=project_urlname_token_here)](https://codecov.io/gh/author_name/project_urlname)
-[![CI](https://github.com/author_name/project_urlname/actions/workflows/main.yml/badge.svg)](https://github.com/author_name/project_urlname/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/m-310101/windows-temp-file-destroyer/branch/main/graph/badge.svg?token=windows-temp-file-destroyer_token_here)](https://codecov.io/gh/m-310101/windows-temp-file-destroyer)
+[![CI](https://github.com/m-310101/windows-temp-file-destroyer/actions/workflows/main.yml/badge.svg)](https://github.com/m-310101/windows-temp-file-destroyer/actions/workflows/main.yml)
 
-project_description
+Awesome windows_temp_file_destroyer created by m-310101
 
 ## Install it from PyPI
 
 ```bash
-pip install project_name
+pip install windows_temp_file_destroyer
 ```
 
 ## Usage
 
 ```py
-from project_name import BaseClass
-from project_name import base_function
+from windows_temp_file_destroyer import BaseClass
+from windows_temp_file_destroyer import base_function
 
 BaseClass().base_method()
 base_function()
 ```
 
 ```bash
-$ python -m project_name
+$ python -m windows_temp_file_destroyer
 #or
-$ project_name
+$ windows_temp_file_destroyer
 ```
 
 ## Development

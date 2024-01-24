@@ -1,4 +1,4 @@
-"""Python setup.py for project_name package"""
+"""Python setup.py for windows_temp_file_destroyer package"""
 import io
 import os
 from setuptools import find_packages, setup
@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 def read(*paths, **kwargs):
     """Read the contents of a text file safely.
-    >>> read("project_name", "VERSION")
+    >>> read("windows_temp_file_destroyer", "VERSION")
     '0.1.0'
     >>> read("README.md")
     ...
@@ -30,17 +30,17 @@ def read_requirements(path):
 
 
 setup(
-    name="project_name",
-    version=read("project_name", "VERSION"),
-    description="project_description",
-    url="https://github.com/author_name/project_urlname/",
+    name="windows_temp_file_destroyer",
+    version=read("windows_temp_file_destroyer", "VERSION"),
+    description="Awesome windows_temp_file_destroyer created by m-310101",
+    url="https://github.com/m-310101/windows-temp-file-destroyer/",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
-    author="author_name",
+    author="m-310101",
     packages=find_packages(exclude=["tests", ".github"]),
     install_requires=read_requirements("requirements.txt"),
     entry_points={
-        "console_scripts": ["project_name = project_name.__main__:main"]
+        "console_scripts": ["windows_temp_file_destroyer = windows_temp_file_destroyer.__main__:main"]
     },
     extras_require={"test": read_requirements("requirements-test.txt")},
 )
